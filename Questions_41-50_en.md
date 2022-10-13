@@ -1,117 +1,56 @@
-21. What is the difference between a statement and an expression in Python? 
+41. Create a tuple with three items – Jane, Mary, Alice. Use the variable names for this tuple. Use the type() function to
+check the data type of your variable.
 
-- [ ] A statement is a line of code that does something while an expression is a line of code that
-evaluates into something
-- [ ] An expression is a line of code that does something while a statement is a line of code that
-evaluates into something
-- [ ] A statement is a line of code that combines something while an expression is a line of code that
-divides something
-- [ ] A statement is a line of code that runs all the time while an expression is a line of code that runs
-when called
+--- 
+
+42. Write a code to print the name ‘Alice’ from your tuple (question 41).
 
 ---
 
-22. Which one of the following is an expression?
-
-- [ ] while loop
-- [ ] print(name)
-- [ ] ‘firstname’ + ‘lastname’
-- [ ] if statement
+44. Write a code to check the length of the tuple (question 41). Print out the length.
 
 ---
 
-23. Which of the following is a data type in Python? Select all that apply.
-
-- [ ] variable
-- [ ] float
-- [ ] integer
-- [ ] complex
-
-24. Which one of the following data types is an integer?
-
-- [ ] 20
-- [ ] 21.2
-- [ ] 21.22
-- [ ] 0.1
-
-25. Mary writes the following code:
-```{python}
-y = 1.5
-print(type(y))
-```
-What data type do you get when you run this code?
-
-- [ ] float
-- [ ] int
-- [ ] tuple
-- [ ] list
+44. Your boss Jerry has asked you to add another item to your tuple (question 41). Write a code to add “Maria” to the
+tuple.
 
 ---
 
-26. John writes the following code:
-```{python}
-name = "John"
-print(type(name))
-```
-What data type do you get when you run this code?
-
-- [ ] str
-- [ ] float
-- [ ] set
-- [ ] tuple
+45. Your boss Jerry has come back and now wants the name Maria (question 41) removed from the tuple. Write a code
+to remove the name Maria from the tuple.
 
 ---
 
-27. 
-```{python}
-fruits = ["apples", "mangoes", "Oranges"]
-print(type(fruits))
-```
-
-What data type do you get when you run this code?
-- [ ] dict
-- [ ] tuple
-- [ ] list
-- [ ] bool
+46. Your boss suspects that the name Jane appears more than once in the tuple of names. Use the tuple method count()
+to check how many times the name Jane appears in your tuple (question 41).
 
 ---
 
-28.   
-```{python}
-apples = {"apples", "mangoes", "Oranges"}
-print(type(apples))
-```
+47. Which one of the following is a tuple method?
 
-What data type do you get when you run this code?
-- [ ] list
-- [ ] dict
-- [ ] set
-- [ ] tuple
+- [ ] cut()
+- [ ] append()
+- [ ] index()
+- [ ] sort()
 
 ---
 
-29.  What data type do you get when you run the code below?
+48. Which one of the following is true about tuples?
 
-```{python}
-fruits = ("mango", "orange", "lemon")
-print(type(fruits))
-```
-- [ ] dict
-- [ ] mango
-- [ ] tuple
-- [ ] list
+- [ ] No duplicates are allowed in a tuple
+- [ ] You cannot create a tuple of Boolean data types
+- [ ] You cannot have a tuple with different data types
+- [ ] There is no limit to the number of items you can add to a tuple
 
 ---
 
-30. 
-```{python}
-cars = ["BMW", "Mazda", "Honda", False, 1,2,9,10]
-print(type(cars))
-```
+49. There are two ways to create a tuple, using round brackets () and using a tuple constructor. Create a tuple of colors
+– Red, Blue, Green, using a tuple constructor. Print the tuple of colors.
 
-What data type do you get when you run this code?
+---
+50. What is the difference between a tuple and a set? Select all that apply.
 
-- [ ] tuple
-- [ ] list
-- [ ] float
-- [ ] dict
+- [ ] Tuples have ordered values while sets don’t
+- [ ] Sets have ordered values while tuples don’t
+- [ ] Sets are mutable while tuples are immutable
+- [ ] Tuples are immutable while sets are mutable
